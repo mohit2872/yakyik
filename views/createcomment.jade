@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title
+  body
+    h1 Create Comment
+    form(action='/api/comment', method='post')
+      input(type='text', name='body', value='', placeholder='Body')
+      br
+      input(type='text', name='username', value='', placeholder='Username')
+      br
+      input(type='submit', name='', value='Create Comment')

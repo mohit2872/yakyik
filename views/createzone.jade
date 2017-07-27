@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title
+  body
+    h1 Create Zone
+    form(action='/api/zone', method='post')
+      input(type='text', name='name', value='', placeholder='Name')
+      br
+      input(type='text', name='zipCodes', value='', placeholder='ZipCode')
+      br
+      input(type='submit', name='', value='Create Zone')
